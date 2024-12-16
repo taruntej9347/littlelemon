@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    background-color:white;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Header Styles */
+header {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header .logo img {
+    width: 45%;
+    height: 150px; 
+    display: center;
+    object-fit: fill; 
+}
+
+nav {
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(41, 38, 38, 0.87);
+}
+nav a {
+    color:white;
+    text-decoration: none;
+    font-weight: lighter;
+    margin: 0 25px;
+    display: inline-block;
+}
+/* Main Section Styles */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* First Row (Promo Section) */
+.promo {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 250px; }
+
+.promo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.promo h1,
+.promo p {
+    position: absolute;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.promo h1 {
+    top: 20%;
+    width:98%;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.promo p {
+    top: 40%;
+    width:98%;
+    line-height: 1.5;
+    text-align:left;
+}
+
+/* Second Row (Cards Section) */
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+
+.card {
+    background-color: rgb(247, 226, 208);
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;;
+    
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.Class {
+    text-align: center;
+}
+
+.card a:hover {
+    background-color: #ddd;
+}
+
+/* Footer Styles */
+footer {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+footer img {
+    width: 50px; 
+    height: auto;
+}
+
+footer p {
+    color: #333;
+    font-weight: 400;
+ 
+}
